@@ -1,0 +1,51 @@
+void main() {
+ 
+  print("Name = Mohammad Raheeb Siddiqui");
+  print("<<<<<<<<<<<<<<<<<<MARK SHEET>>>>>>>>>>>>>>>>>>");
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  print("S.No.    Subjects    Max Marks    Marks Obtained");
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  num Accounts = 90;
+  print("1.       Accounts       100            $Accounts");
+  num Maths = 95;
+  print("2.       Maths          100            $Maths");
+  num Chemistry = 80;
+  print("3.       Chemistry      100            $Chemistry");
+  num Physics =85;
+  print("4.       Physics        100            $Physics");
+  num Urdu = 60;
+  print("5.       Urdu           100            $Urdu");
+  num Islamiyat =80;
+  print("6.       Islamiyat      100            $Islamiyat");
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  
+ var obt = Accounts+Maths+Chemistry+Physics+Urdu+Islamiyat;
+  
+  var total=600;
+  var percentage = (obt/total*100);
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  print ("your percentage is ${percentage.toInt()}");
+  
+  
+  if (percentage >=90){
+    print("your Grade is 'A+' ");
+  }
+  else
+    if (percentage >=80){
+      print("your Grade is 'B'  ");
+    }
+  else
+    if (percentage >=70){
+      print ("your Grade is 'C'  ");
+    }
+  else 
+    if (percentage >=60){
+      print ("your Grade is 'D'  ");
+    }
+  else 
+    if (percentage >=50){
+      print ("your Grade is 'E'  ");
+    }
+  print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+  print("%%%%%%%%%%%%%%%%%%%%THANK YOU%%%%%%%%%%%%%%%%%%%%");
+}
